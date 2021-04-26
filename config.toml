@@ -31,8 +31,8 @@ paginate = 5000 #frontpage pagination
 
   # comments
   # hyvor = true
-  # github = true
-  # disqusShortname = "yourdiscussshortname"
+  # github = false
+  disqusShortname = "arpangreat-github-io"
 
   [[params.addtional_menus]]
   title =  "ABOUT"
