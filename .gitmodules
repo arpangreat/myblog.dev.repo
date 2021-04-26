@@ -1,0 +1,12 @@
+[submodule "themes/hugo-theme-zzo"]
+	path = themes/hugo-theme-zzo
+	url = https://github.com/arpangreat/hugo-theme-zzo.git
+[submodule "themes/hugo-theme-iris"]
+	path = themes/hugo-theme-iris
+	url = https://github.com/peaceiris/hugo-theme-iris.git
+[submodule "themes/hugo-mod-mathjax"]
+	path = themes/hugo-mod-mathjax
+	url = https://github.com/peaceiris/hugo-mod-mathjax
+[submodule "themes/meghna-hugo"]
+	path = themes/meghna-hugo
+	url = https://github.com/arpangreat/meghna-hugo.git

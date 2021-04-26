@@ -1,0 +1,43 @@
+baseurl = "https://arpangreat.github.io"
+title = "Swastik Acharyya"
+theme = "meghna-hugo"
+languageCode = "en-us"
+paginate = 5000 #frontpage pagination
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  header_image = "images/main_go_wideandtall_darklayer.jpeg"
+  title = "Software Engineering"
+  slogan = "$ grep -rni \"The how's and why's\" ."
+  SEOTitle = "Swastik Acharyya"
+  keyword = "Swastik, Acharyya, Raspberry, Pi, Docker, Kubernetes, Go, Golang, Microservice"
+ 
+  # Sidebar settings
+  sidebar_about_description = "Student, Vim enthusiast, dreamer, poet, and, oh yeah, Software Developer"
+  sidebar_avatar = "images/MeAtJackson.jpeg"
+  about_me = true
+
+  featured_tags = true 
+  featured_condition_size = 2 # How many posts have to have a given tag to be featured (greater-than)
+
+  image_404 = "images/404-bg.jpg"
+  title_404 = "We couldn't find what you were looking for..."
+
+  omit_categories = false
+
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/top/about/"
+
+  [params.social]
+  rss            = true
+  email          = "arpanthegreat41@gmail.com"
+  # linkedin       = "https://www.linkedin.com/in/richard-youngkin-0749763"
+  github         = "https://github.com/arpangreat"
+  # medium         = "https://medium.com/@RichYoungkin"
+  # stackoverflow  = "https://stackoverflow.com/users/2646870/rich"
+  # reddit         = "https://www.reddit.com/user/elevation5280"
