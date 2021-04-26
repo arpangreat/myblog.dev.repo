@@ -10,3 +10,6 @@
 [submodule "themes/meghna-hugo"]
 	path = themes/meghna-hugo
 	url = https://github.com/arpangreat/meghna-hugo.git
+[submodule "themes/hugo-theme-cleanwhite"]
+	path = themes/hugo-theme-cleanwhite
+	url = https://github.com/arpangreat/hugo-theme-cleanwhite.git

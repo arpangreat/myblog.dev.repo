@@ -1,6 +1,6 @@
 baseurl = "https://arpangreat.github.io"
 title = "Swastik Acharyya"
-theme = "meghna-hugo"
+theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 paginate = 5000 #frontpage pagination
 
