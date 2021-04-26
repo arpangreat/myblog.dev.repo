@@ -29,6 +29,10 @@ paginate = 5000 #frontpage pagination
 
   omit_categories = false
 
+  # comments
+  hyvor = true
+  github = false
+
   [[params.addtional_menus]]
   title =  "ABOUT"
   href =  "/top/about/"
