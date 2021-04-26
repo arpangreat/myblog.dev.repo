@@ -12,7 +12,7 @@ paginate = 5000 #frontpage pagination
 [params]
   header_image = "images/main_go_wideandtall_darklayer.jpeg"
   title = "Software Engineering"
-  slogan = "$ grep -rni \"The how's and why's\" ."
+  slogan = "$ echo 'Vim is life , Vim is wife'"
   SEOTitle = "Swastik Acharyya"
   keyword = "Swastik, Acharyya, Raspberry, Pi, Docker, Kubernetes, Go, Golang, Microservice"
  
