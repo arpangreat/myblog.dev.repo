@@ -30,8 +30,9 @@ paginate = 5000 #frontpage pagination
   omit_categories = false
 
   # comments
-  hyvor = true
-  github = false
+  # hyvor = true
+  # github = true
+  # disqusShortname = "yourdiscussshortname"
 
   [[params.addtional_menus]]
   title =  "ABOUT"
