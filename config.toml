@@ -31,7 +31,7 @@ paginate = 5000 #frontpage pagination
 
   [[params.addtional_menus]]
   title =  "ABOUT"
-  href =  "/top/about/"
+  href =  "/top/about/index.md"
 
   [params.social]
   rss            = true
