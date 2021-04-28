@@ -52,9 +52,9 @@ The Basic File structure of nvim config is like that:
 ├── 📁 pack
 ├── 📁 plugin
 ├── 📁 syntax
-└── 🇻 init.vim
+└──  init.lua
 ```
-so lua files are typically located inside `Lua/` and it can have submoules as well.
+so lua files are typically located inside `Lua/` and it can have submodules as well.
 
 To load `myluamodule.lua` we have to call:
 ```lua
@@ -323,7 +323,7 @@ endif
 ]], true)
 ```
 
-#### Source any file `.vim` file in lua
+#### To Source any `.vim` file in lua
 just call:
 ```lua
 vim.cmd("source the/file/path/here.lua")
