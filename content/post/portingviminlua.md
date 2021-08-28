@@ -143,6 +143,7 @@ To achieve the same thing in `lua` we have a different but more verbose approach
 - `vim.t.{name}`: tabpage variables
 - `vim.v.{name}`: predefined Vim variables
 - `vim.env.{name}`: environment variables
+- and at last `vim.opt.{name}`: The Global wrapper for everything
 
 So now the sets will be like:
 ```lua
@@ -206,6 +207,70 @@ vim.o.ttimeoutlen = 50
 vim.o.updatetime = 100
 vim.o.shortmess = "I"
 vim.o.laststatus = 2
+```
+
+Or Just with opt ( Highly Recommended )
+```lua
+-- Ignorecases
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
+-- Search
+vim.opt.hlsearch = true
+vim.opt.incsearch = true
+vim.opt.inccommand = "split"
+
+-- Vim UI
+vim.opt.smartindent = true
+vim.opt.wrap = false
+vim.opt.colorcolumn = '120'
+vim.opt.showcmd = true
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.signcolumn="yes"
+vim.opt.scrolloff = 8
+vim.opt.showmode = false
+vim.opt.completeopt = "menuone,noinsert,noselect"
+vim.opt.hidden = true
+-- vim.opt.include
+vim.opt.display = "lastline"
+vim.opt.backspace = "indent,eol,start"
+
+-- Visuals
+vim.opt.syntax = "enable"
+-- vim.opt.filetype = "plugin on"
+vim.opt.t_Co="256"
+-- vim.api.nvim_set_optption('t_Co',256)
+vim.opt.termguicolors = true
+-- vim.opt.encodingvim.o.hidden = true
+vim.opt.include = ""
+vim.opt.display = "lastline"
+vim.opt.encoding="utf-8"
+-- vim.opt.winblend = 100
+-- vim.api.nvim_exec([[set winblend=100]], true)
+-- Numbers
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.cursorline = true
+-- vim.opt.cursorcolumn = true
+
+-- Utils
+vim.opt.compatible = false
+vim.opt.mouse='a'
+vim.opt.autoindent = true
+vim.opt.backup = false
+vim.opt.undofile = true
+vim.opt.undodir="~/.vim/undodir"
+vim.opt.swapfile = false
+vim.opt.shada="!,'1000,<50,s10,h"
+vim.opt.viminfo="'100,n$HOME/.vim/files/info/viminfo"
+vim.opt.clipboard = "unnamedplus"
+
+-- Times
+vim.opt.ttimeoutlen = 50
+vim.opt.updatetime = 100
+vim.opt.shortmess = "I"
+vim.opt.laststatus = 2
 ```
 just like that ...
 
